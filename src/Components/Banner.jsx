@@ -11,7 +11,7 @@ function Banner() {
                     <div className='hey text-[3rem] mb-1 md:text-[5rem] md:mb-8'>Hey</div>
                     <div className='name text-[3rem] md:text-[5rem]'>I am <span className='animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-[3rem] md:text-[5rem]'>Sharan</span>,</div>
                     <div>
-                        <TypeAnimation className='typeanimation text-blue-600 font-bold text:[1rem] md:text-[2rem] '
+                        <TypeAnimation className='typeanimation text-blue-600 font-bold text:[1rem] md:text-[2rem]'
                             sequence={[
                                 `Welcome to my website!\nI'm a Developer\nand a Designer.`,
                                 1000,
@@ -20,6 +20,7 @@ function Banner() {
                             repeat={Infinity}
                             speed={30}
                             style={{ whiteSpace: 'pre-line' }}
+                            cursor={false}
 
                         />
                     </div>

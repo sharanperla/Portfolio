@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.animate {
+    animation: showDown 1.5s;
+}
+
+@keyframes showDown {
+    0% {
+        transform: translateX(500px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.animatetwo {
+    animation: showUp 1.5s;
+}
+
+@keyframes showUp {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(500px);
+    }
+}

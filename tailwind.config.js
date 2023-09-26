@@ -10,6 +10,10 @@ export default {
         "primary":'#ffa500',
         "git":'#f1f1f1',
         "main":'#ffffff',
+        "text":'black',
+        "darkmodebg":'#000000',
+        "darkcard":'#1e1f21',
+        "lightcard":'#ebebeb',
       },
        animation: {
         text: 'text 5s ease infinite',
